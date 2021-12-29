@@ -1,0 +1,5 @@
+note, I can use any valid Card ID with any user account, so I should be able to bruteforce card IDs in making a reservation until I know it worked, and then I can charge someone else's card 
+
+note, I seem to be able to change price arbitrarily with the post reservation scripts, but will require further testing 
+
+
