@@ -30,11 +30,12 @@ am_pm = config['am-pm']
 
 The time-related fields in the config are the parameters under which the reservation will be made. 
 
-For example, the configuration below will register a tee time 4-9 AM, system time, at Bethpage State Park. 
+For example, the configuration below will register a tee time 4-9 AM, system time, at Bethpage State Park:
 
+```
 config['am-pm'] = 'am'
 config['max-hour'] = '4'
 config['min-hour'] = '9'
 config['site-url'] = 'https://foreupsoftware.com/index.php/booking/19765/2431#teetimes'
+```
 
-////
