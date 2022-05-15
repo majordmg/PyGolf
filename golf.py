@@ -25,6 +25,7 @@ headless_int = config['headless']
 min_hour = config['min-hour']
 max_hour = config['max-hour']
 am_pm = config['am-pm']
+site_url = config['site_url']
 
 
 # generate target hours 
@@ -35,7 +36,8 @@ chrome_options = Options()
 if bool(int(headless_int)):
     chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(executable_path=driver_path, options=chrome_options)
-driver.get("https://foreupsoftware.com/index.php/booking/20330/4502#/teetimes")
+#driver.get("https://foreupsoftware.com/index.php/booking/20330/4502#/teetimes")
+driver.get(site_url)
 
 login_btn = driver.find_elements_by_class_name("login")[0]
 login_btn.click()
