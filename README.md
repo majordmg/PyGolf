@@ -1,15 +1,17 @@
 # PyGolf
 
+```
+ ____  __ __  ____  ___  _     _____ 
+|    \|  |  |/    |/   \| |   |     |
+|  o  |  |  |   __|     | |   |   __|
+|   _/|  ~  |  |  |  O  | |___|  |_  
+|  |  |___, |  |_ |     |     |   _] 
+|  |  |     |     |     |     |  |   
+|__|  |____/|___,_|\___/|_____|__|   
 
-__________         ________       .__   _____ 
-\______   \___.__./  _____/  ____ |  |_/ ____\
- |     ___<   |  /   \  ___ /  _ \|  |\   __\ 
- |    |    \___  \    \_\  (  <_> )  |_|  |   
- |____|    / ____|\______  /\____/|____/__|   
-           \/            \/                   
+Automate golf tee time reservations through foreupsoftware.com
 
-
-Automatically reserve golfing timeslots through Foreupsoftware. 
+```              
 
 Create a config.json and create the following fields:
 ```
